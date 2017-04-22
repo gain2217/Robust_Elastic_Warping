@@ -4,7 +4,7 @@ run('../vlfeat-0.9.20/toolbox/vl_setup');
 addpath('transforms');
 addpath('examples');
 
-REW_workingtable;
+REW_worktable;
 REW_racetracks;
 REW_racetracks;
 REW_boardingbridge;

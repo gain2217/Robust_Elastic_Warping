@@ -4,7 +4,7 @@ xcam = Xcam(1, :) ;
 ycam = Xcam(2, :) ;
 zcam = Xcam(3, :) ;
 
-[x, y] = fisheye_cam2im(xcam, ycam, zcam, M, D);
+[x, y] = trans_cam2fisheye(xcam, ycam, zcam, M, D);
 
 X = [x; y; ones(1, size(x, 2))] ;
 
